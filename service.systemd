@@ -1,0 +1,13 @@
+[Unit]
+Description=Music Player
+
+[Service]
+ExecStart=/home/pi/officemusic/run.sh
+WorkingDirectory=/home/pi/officemusic
+User=pi
+Group=pi
+TimeoutStopSec=25
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
