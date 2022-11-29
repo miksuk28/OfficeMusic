@@ -1,5 +1,7 @@
 # Officemusic
 
+(Credit goes to https://gitea.quad.moe/quad/officemusic) 
+
 Extremely basic music player that I run on a raspberry pi at my office.
 
 It's just a loop that updates the git repo (containing the playlist) and then feeds said playlist (which is just a list of YouTube URLs) into mpv.
